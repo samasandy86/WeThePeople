@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Your Offical</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Google Fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Crete+Round" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./assets/css/extra.css">
+
+</head>
+
+<body>
+  <!--HEADER-->
+  <header class="main-header" id="header">
+    <div class="bg-color">
+
+      <!--NAV-->
+      <nav class="nav navbar-default navbar-fixed-top top-nav-collapse">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false"
+                aria-controls="navbar">
+                <span class="fa fa-bars"></span>
+              </button>
+              <a href="index.html" class="navbar-brand">WE THE PEOPLE</a>
+            </div>
+            <div class="navbar-collapse navbar-right collapse" id="mynavbar" aria-expanded="false" style="height: 0px;">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="bills.html">Bills</a>
+                  </li>
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                  <li>
+                      <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--/ nav ends-->
+
+      <!-- MAIN BANNER -->
+      <div class="container text-center">
+        <div class="wrapper">
+          <h2 class="top-title">Knowledge Is Power</h2>
+          <h3 class="title">WE THE PEOPLE</h3>
+          <h4 class="sub-title">Know your officials before you vote</h4>
+
+          <!-- ADDRESS SEARCH FIELD -->
+          <div class="row">
+            <div class="col-md-12 search-header">
+              <h3 class="search-text">Enter your address to find your official</h3>
+              <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                  <input id="address" type="address" class="form-control input-lg" placeholder="1600 Pennsylvania Ave NW Washington, DC 20006"/>
+                  <span class="input-group-btn">
+                    <button id="search" class="btn btn-info btn-lg" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div><!-- /search field ends -->
+        </div> <!-- /wrapper ends -->
+
+      </div><!-- /main banner ends -->
+    </div> <!-- /background-color ends -->
+  </header><!--/ header ends -->
+
+  <!-- QUOTE SECTION -->
+  <section class="cta-1">
+    <div class="container">
+      <div class="row">
+        <div class="quote-info text-center">
+          <span class="dec-tec">“</span>I don't make jokes. I just watch the goverment and report the facts.
+          <span class="dec-tec">”</span>
+          <h3>- Know Your Officials</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /quote section ends -->
+
+  <!-- API INFO -->
+  <div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6" id="address-image"></div>
+    <div class="col-lg-3"></div>
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <br />
+      <br />
+    </div>
+  </div>
+  <div class="container">
+    <div id="local-header"> </div>
+    <div id="results-local" class="row">
+    </div>
+  </div>
+  <div class="container">
+    <div id="county-header"> </div>
+    <div id="results-county" class="row">
+    </div>
+  </div>
+  <div class="container">
+    <div id="state-header"> </div>
+    <div id="results-state" class="row">
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    <div id="federal-header"></div>
+    <div id="results-federal" class="row">
+    </div>
+  </div>
+  </div>
+  <button class="myBtn" id="myBtn" title="Go to top">Top</button>
+  <!-- /api info ends -->
+
+  <!--  SOCIAL SECTION  -->
+  <section class="section-padding parallax bg-image-2 section" id="cta-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="cta-txt quote-info2">
+            <h3>"I have come to the conclusion that politics are too serious a matter to be left to the politicians."</h3>
+            <p>- Charles De Gaulle</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /social section ends -->
+
+  <!--CONTACT SECTION-->
+  <!--CONTACT SECTION-->
+  <section class="section-padding" id="contact">
+    <div class="container">
+      <div class="row white">
+        <div class="col-md-12 col-sm-12">
+          <div class="section-title">
+            <h2 class="head-title black">Contact Us</h2>
+            <hr class="botm-line">
+            <p class="sec-para black">Don't be shy, drop us a line. We love to hear feedback so please provide us any information you think would make
+              this site better for you. Thanks!</p>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="col-md-8 col-sm-12">
+            <h3 class="cont-title">Additional Resources</h3>
+            <div class="col-md-6 col-sm-12">
+              <p class="resource-links">
+                <a href="https://votesmart.org/" target="_blank">VoteSmart.org</a>
+              </p>
+              <p class="resource-links">
+                <a href="https://www.politico.com/news/bipartisanship" target="_blank">POLITICO</a>
+              </p>
+              <p class="resource-links">
+                <a href="http://www.vote411.org/" target="_blank">Voter Information.org</a>
+              </p>
+              <p class="resource-links">
+                <a href="https://www.reuters.com/politics" target="_blank">The Reuters</a>
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <p class="resource-links">
+                <a href="https://www.rollcall.com/news/politics/buck-and-lieu-bill-seeks-to-end-political-burrowing" target="_blank">Roll Call</a>
+              </p>
+              <p class="resource-links">
+                <a href="https://www.usnews.com/" target="_blank">US NEWS</a>
+              </p>
+              <p class="resource-links">
+                <a href="http://www.politifact.com/" target="_blank">PolitiFact</a>
+              </p>
+            </div>
+          </div>
+          <!--space seperator -->
+          <div class="row">
+            <div class="col-md-12 col-sm-12">&nbsp;</div>
+          </div>
+          <!--/ space seperator-->
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <h3 class="cont-title">Visit Us</h3>
+          <div class="location-info">
+            <p>
+              </span>1600 Pennslyvania Ave., Washington DC, 20006</p>
+            <p>
+              </span>Phone: (612)-867-5309</p>
+            <p>Email:
+              <a href="" class="link-dec">info@wethepeople.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- /contact section ends -->
+    <!-- /contact section ends -->
+
+  <!-- FOOTER SECTION -->
+  <footer class="" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 footer-copyright">
+          © We The People - All rights reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /footer ends -->
+
+  <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvzo41OTxNaNCRdixEDqiqC_ENZnx4mrE&libraries=places"></script>
+  <script src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
